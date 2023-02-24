@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <title>Test task</title>
+</head>
+
+<body>
+    <header class="header fl-row">
+        <div class="scroll fl-col col-center">
+        </div>
+        <div class="container">
+            <div class="header-row">
+                <div class="header-topbar fl-row col-center sp-btwn">
+                    <div class="tobar-col logo-wrap fl-row col-center">
+                        <div class="img-wrap header-img-wrap">
+                            <a href="/">
+                                <img src="./img/Логотип.svg" alt="Лаборатория двигателей">
+                            </a>
+                        </div>
+                        <p class="logo-dscr topbar-txt dsct">
+                            Ремонтируем двигатели Hyundai и Kia с 2012 года
+                        </p>
+                    </div>
+                    <div class="tobar-col company-adress fl-row col-center dsct">
+                        <div class="img-wrap header-img-wrap">
+                            <img src="./img/Карта.svg" alt="Карта">
+                        </div>
+                        <p class="topbar-txt">
+                            Адрес автоцентра: Москва, Шоссейный проезд, с4 а/2
+                        </p>
+
+                    </div>
+                    <div class="tobar-col map fl-row col-center dsct">
+                        <div class="img-wrap header-img-wrap">
+                            <img src="./img/map-big.svg" alt="Map icon">
+                        </div>
+                        <a href="#" class="topbar-txt border view-on-map bold-link">
+                            Смотреть на карте
+                        </a>
+                        <div class="map-popap">
+                            <div class="map-close-btn">
+                                <img src="./img/close-btn.svg" alt="Close button">
+                            </div>
+                            <div class="map-popap-wrap">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.899617895601!2d37.708283015963126!3d55.70811660290495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab4d8a4e9ba59%3A0x13d3fcbab7605a78!2z0KjQvtGB0YHQtdC50L3Ri9C5INC_0YAuLCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2sam!4v1677231496676!5m2!1sru!2sam"
+                                    width="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tobar-col calc fl-row col-center dsct">
+                        <div class="img-wrap header-img-wrap calc-img-wrap">
+                            <img src="./img/Калькулятор.svg" alt="Map icon">
+                        </div>
+                        <a href="#" class="topbar-txt border bold-link">
+                            Рассчитать стоимость <br>ремонта за 45 сек
+                        </a>
+                    </div>
+                    <div class="tobar-col ask fl-row col-center dsct">
+                        <p class="topbar-txt ask-col">
+                            Задайте вопрос, мы сейчас онлайн
+                        </p>
+                        <div class="header-icons fl-row ask-col">
+                            <a class="img-wrap header-img-wrap header-icon-item" href="#" target="_blank">
+                                <img src="./img/whatsapp.svg" alt="whatsapp">
+                            </a>
+                            <a class="img-wrap header-img-wrap header-icon-item" href="#" target="_blank">
+                                <img src="./img/telegram.svg" alt="telegram">
+                            </a>
+                            <a class="img-wrap header-img-wrap header-icon-item" href="#" target="_blank">
+                                <img src="./img/viber.svg" alt="viber">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tobar-col call-me col-center fl-col">
+                        <p class="topbar-txt">
+                            Звоните Пн-Сб 10:00 - 21:00
+                        </p>
+                        <p class="phone-number">
+                            +7 (925) 103 33 30
+                        </p>
+                        <a href="#" class="topbar-txt border call-me-btn">
+                            Заказать звонок
+                        </a>
+                    </div>
+                    <div class="burger-btn mob-btn">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="14.75" height="2.26923" fill="white" />
+                            <rect y="11.3457" width="14.75" height="2.26923" fill="white" />
+                            <rect y="5.67383" width="14.75" height="2.26923" fill="white" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="header-menu dsct">
+                    <ul class="menu-list fl-row col-center">
+                        <li class="menu-item">
+                            <a href="/">Главная</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">услуги</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">модели двигателей</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">отзывы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">стоимость</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">примеры работ</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">полезные статьи</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">о компании</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="mob-menu-block">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="/">Главная</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-item">
+                            <a href="#">Ремонт дивгателей KIA</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="#">Ремонт двигателей HYundai</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#">услуги</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">модели двигателей</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">отзывы</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">стоимость</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">примеры работ</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">полезные статьи</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">о компании</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+            <div class="mob-company-adress fl-row col-center">
+                <div class="mob-img-wrap">
+                    <img src="./img/Карта.svg" alt="Карта">
+                </div>
+                <div>
+                    <p class="mob-txt">Адрес автоцентра:</p>
+                    <p class="bold-link mob-txt border">Шоссейный проезд, с4 а/2</p>
+                </div>
+            </div>
+            <div class="calc-mob fl-row col-center">
+                <div class="mob-img-wrap">
+                    <img src="./img/Калькулятор.svg" alt="Map icon">
+                </div>
+                <div>
+                    <p class="mob-txt">
+                        Рассчитать стоимость ремонта за 
+                    </p>
+                    <p class="bold-link mob-txt border">45 сек</p>
+                </div>
+            </div>
+            <div class="ask-mob fl-row col-center">
+                <div class="mob-img-wrap">
+                    <img src="./img/картинка.png" alt="Map icon">
+                </div>
+                <div>
+                    <p class="mob-txt"> Есть вопрос? </p>
+                    <p class="bold-link mob-txt border">Задайте его нашему мастеру онлайн</p>
+                    <div class="header-icons fl-row ask-col">
+                        <a class="mob-img-wrap header-icon-item" href="#" target="_blank">
+                            <img src="./img/whatsapp.svg" alt="whatsapp">
+                        </a>
+                        <a class="mob-img-wrap header-icon-item" href="#" target="_blank">
+                            <img src="./img/telegram.svg" alt="telegram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content fl-row">
+        <div class="scroll fl-col col-center">
+            <p class="scroll-txt">Scroll down</p>
+            <div class="scroll-line"></div>
+            <div class="mouse-img">
+                <img src="./img/mouse-icon.svg" alt="Mouse icon">
+                <img src="./img/red-circle.svg" alt="" class="red-dot">
+            </div>
+        </div>
+        <section class="banner bg">
+            <div class="bg-black">
+                <div class="container">
+                    <div class="banner-wrap">
+                        <div class="banner-row banner-info">
+                            <h1 class="first-title banner-title">
+                                Профессиональный
+                                <span class="bold-txt">ремонт двигателей</span> HYUNDAI и KIA
+                                с <span class="bold-txt">гарантией 1 год</span> за 4-7 дней
+                            </h1>
+                            <p class="banner-txt">в специализированном автосервисе полного цикла</p>
+                            <div class="banner-btn-block fl-row col-center">
+                                <div class="banner-btn-wrap calc-btn-wrap">
+                                    <a class="calc-btn btn">
+                                        Начать расчет стоимости ремонта вашего двигателя
+                                    </a>
+                                </div>
+                                <div class="banner-btn-wrap whatsapp-btn-wrap">
+                                    <a href="#" class="whatsapp-btn btn">
+                                        Узнайте стоимость по <span class="green-txt"> WhatsApp</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-row company-edge">
+                            <ul class="edge-list fl-row sp-btwn">
+                                <div class="edge-list-row fl-row sp-btwn">
+                                    <li class="edge-item">
+                                        <span>
+                                            <span class="bold-txt">Без предоплаты.</span>
+                                            Оплата после ремонта
+                                        </span>
+                                    </li>
+                                    <li class="edge-item">
+                                        <span>
+                                            <span class="bold-txt">Работаем официально</span>
+                                            с оформлением заказ-нарядов и чеков
+                                        </span>
+                                    </li>
+                                </div>
+                                <div class="edge-list-row fl-row sp-btwn">
+                                    <li class="edge-item">
+                                        <span class="bold-txt">Оригинальные запчасти</span>
+                                    </li>
+                                    <li class="edge-item">
+                                        <span>
+                                            <span class="bold-txt">Лучшие цены на рынке</span>
+                                            благодаря прямым поставкам запчастей и собственному цеху механической
+                                            обработки
+                                        </span>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="popap-bg hide">
+        <div class="popap bg">
+            <div class="popap-wrap">
+                <div class="close-btn">
+                    <img src="./img/close-btn.svg" alt="Close button">
+                </div>
+                <div class="popap-content fl-col col-center">
+                    <p class="popap-title">Быстро оставить заявку</p>
+                    <p class="popap-dscr">Введите номер — позвоним вам
+                        в течение 5-10 минут в рабочее время</p>
+                    <form class="form fl-col col-center">
+                        <div class="inp-wrap form-col fl-col col-center">
+                            <label for="tel" class="tel-label">Введите ваш номер телефона</label>
+                            <input type="tel" name="tel" id="form-tel" class="tel inp" placeholder="+7(___)___-__-__"
+                                data-phone-pattern="+7(___)___-__-__">
+                        </div>
+                        <div class="form-btn-wrap form-col">
+                            <button class="form-btn">Перезвоните мне</button>
+                        </div>
+                        <div class="inp-wrap form-col fl-row col-center">
+                            <input type="checkbox" checked name="form-checkbox" id="form-checkbox" class="form-checkbox">
+                            <label for="form-checkbox" class="check-label">
+                                Нажимая кнопку вы соглашаетесь с условиями
+                                <a href="#" class="red-link">Политики конфиденциальности</a>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="thanks-txt">
+                    <p>Спасибо. Заявка принята. В ближайшее время с Вами свяжется наш менеджер.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
